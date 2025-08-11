@@ -53,6 +53,14 @@ function RouteComponent() {
 
   return (
     <div className="mx-auto max-w-6xl p-6 space-y-6">
+      <button>
+        <a
+          href="https://colab.research.google.com/drive/1TUmdgqna0xwsFirylH5L0rZd1ZLt4_JY?usp=sharing"
+          className="text-blue-500 hover:underline"
+        >
+          설문 결과 확인하기 (Colab)
+        </a>
+      </button>
       <h1 className="text-2xl font-semibold">페르소나 인터뷰 생성</h1>
 
       {/* 페르소나 선택 버튼 (파일에서만 로드) */}
