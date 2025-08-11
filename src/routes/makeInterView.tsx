@@ -123,7 +123,7 @@ function RouteComponent() {
         </div>
         <div className="md:col-span-2">
           <span className="text-gray-500 text-sm">관심 제품</span>
-          <div className="font-medium">{persona.interest}</div>
+          <div className="font-medium">{persona.products}</div>
         </div>
         <div className="md:col-span-2">
           <span className="text-gray-500 text-sm">단체 참여</span>
